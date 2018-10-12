@@ -1,0 +1,63 @@
+#page1 {
+}
+
+#page2 {
+}
+
+#page3 {
+}
+
+.image {
+    width:100%;
+    display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#audio_player {
+  margin: 0 auto;
+}
+
+#audio_container {
+  background-color: #1a1923;
+}
+
+#nav{
+  text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f4f1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    font-family: 'Open Sans'; font-size: 14px;
+    display: block;
+    color: #e56f62;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+li a:hover:not(.active) {
+    color: #6e7ac5;
+}
+
+.active {
+    background-color: #f5f4f1;
+}
