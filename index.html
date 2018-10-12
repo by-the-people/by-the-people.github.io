@@ -20,10 +20,14 @@
 				}
 			}
 			preload(
-				"images/1.png",
-				"images/2.png",
-				"images/3.png"
-			)
+				"images/image-01.jpg",
+				"images/image-02.jpg",
+				"images/image-03.jpg",
+        "images/image-04.jpg",
+        "images/image-05.jpg",
+        "images/image-06.jpg",
+        "images/image-07.jpg"
+      )
 		//--><!]]>
 	</script>
 </div>
@@ -38,49 +42,64 @@
          <li><a href="#moments">Moments</a></li>
          <li><a href="#firstresponse">First Response</a></li>
          <li><a href="#whatif">What If?</a></li>
+         <li><a href="#sources">Sources</a></li>
      </ul>
 </div>
 
 <!-- page1 -->
 <div id="page1">
   <a id="intro" class="smooth"></a>
-    <img class="image" src="images/1.jpg">
+    <img class="image" src="images/image-01.jpg">
 </div>
 
 <!-- page2 -->
 <div id="page2a">
   <a id="opportunity" class="smooth"></a>
-    <img class="image" src="images/2a.jpg">
-      <div id="audio_container">
+    <img id="image2" class="image" src="images/image-02.jpg">
 
-<!-- audio v1 -->
-        <div style="margin: 0 auto; display: table;">
-          <audio controls="controls" id="audio_player">
-            <!-- <source src="track.ogg" type="audio/ogg" /> -->
-            <source src="PeterInterviewv2.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-<!-- end audio v1 -->
-
-        <audio id="music" preload="true">
-          <source src="PeterInterviewv2.mp3" type="audio/mpeg" />
-        </audio>
-        <div id="audioplayer">
-          <button id="pButton" class="play"></button>
-            <div id="timeline">
-              <div id="playhead"></div>
-            </div>
-        </div>
-
-
-
-      </div>
-    <img class="image" src="images/2b.jpg">
+    </img>
+    <img class="image" src="images/image-03.jpg">
 </div>
 
 <!-- page3 -->
 <div id="page3">
   <a id="moments" class="smooth"></a>
-    <img class="image" src="images/3.jpg">
+  <img class="image" src="images/image-04.jpg">
+
+<!--  <audio id="music" preload="true">
+    <source src="PeterInterviewv2.mp3" type="audio/mpeg" />
+  </audio>
+  <div id="audioplayer">
+    <button id="pButton" class="play"></button>
+    <div id="timeline">
+      <div id="playhead"></div>
+    </div>
+  </div>
+-->
+
+
+</div>
+
+
+<div id="page4">
+  <a id="firstresponse" class="smooth"></a>
+    <img class="image" src="images/image-05a.jpg">
+    <div id="audio_container">
+    <audio controls>
+      <source src="PeterInterviewv2.mp3" type="audio/mp3">
+    </audio>
+    </div>
+    <img class="image" src="images/image-05b.jpg">
+</div>
+
+<div id="page5">
+  <a id="whatif" class="smooth"></a>
+  <img class="image" src="images/image-06.jpg">
+
+</div>
+
+<div id="page6">
+  <a id="sources" class="smooth"></a>
+  <img class="image" src="images/image-07.jpg">
+
 </div>
