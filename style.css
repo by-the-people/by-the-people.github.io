@@ -44,7 +44,8 @@ li {
 }
 
 li a {
-    font-family: 'Open Sans'; font-size: 14px;
+    font-family: 'Montserrat'; font-size: 14px;
+    font-weight: bold;
     display: block;
     color: #e56f62;
     text-align: center;
