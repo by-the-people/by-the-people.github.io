@@ -6,28 +6,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
 </head>
 
-<!--jQuery smooth scroll script-->
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
-<!--<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>-->
-<!--<script type="text/javascript" src="script.js"></script>-->
-
-<!--
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
-    return false;
-});
-</script>
-
--->
-<!-- end Jquery script -->
-
 <!-- JavaScript for preloading images -->
+<script src="html5audio.js" type="text/javascript"></script>
 
 <div class="hidden">
 	<script type="text/javascript">
@@ -50,6 +30,7 @@ $('.smooth').on('click', function() {
 
 <!-- end JavaScript for preloading images -->
 
+<!-- navigation bar -->
 <div id="nav">
      <ul>
          <li><a href="#intro">Intro</a></li>
@@ -60,27 +41,46 @@ $('.smooth').on('click', function() {
      </ul>
 </div>
 
+<!-- page1 -->
 <div id="page1">
   <a id="intro" class="smooth"></a>
     <img class="image" src="images/1.jpg">
 </div>
 
+<!-- page2 -->
 <div id="page2a">
   <a id="opportunity" class="smooth"></a>
-  <img class="image" src="images/2a.jpg">
-    <div id="audio_container">
-      <div style="margin: 0 auto; display: table;">
-        <audio controls="controls" id="audio_player">
-          <!-- <source src="track.ogg" type="audio/ogg" /> -->
+    <img class="image" src="images/2a.jpg">
+      <div id="audio_container">
+
+<!-- audio v1 -->
+        <div style="margin: 0 auto; display: table;">
+          <audio controls="controls" id="audio_player">
+            <!-- <source src="track.ogg" type="audio/ogg" /> -->
+            <source src="PeterInterviewv2.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+<!-- end audio v1 -->
+
+        <audio id="music" preload="true">
           <source src="PeterInterviewv2.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
         </audio>
+        <div id="audioplayer">
+          <button id="pButton" class="play"></button>
+            <div id="timeline">
+              <div id="playhead"></div>
+            </div>
+        </div>
+
+
+
       </div>
-    </div>
-  <img class="image" src="images/2b.jpg">
+    <img class="image" src="images/2b.jpg">
 </div>
 
+<!-- page3 -->
 <div id="page3">
   <a id="moments" class="smooth"></a>
-  <img class="image" src="images/3.jpg">
+    <img class="image" src="images/3.jpg">
 </div>
