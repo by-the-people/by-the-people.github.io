@@ -18,11 +18,11 @@ html {
 
 #audio_player {
   margin: 0 auto;
-  width: 1000px;
 }
 
 #audio_container {
   background-color: #1a1923;
+  width: 1000px;
 }
 
 #nav{
