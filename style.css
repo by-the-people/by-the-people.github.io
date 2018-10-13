@@ -5,6 +5,8 @@ html {
 
 #nav{
   text-align:center;
+  position: fixed;
+  z-index: 999;
 }
 
 ul {
@@ -12,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: #f5f4f1;
+    background-color: #edece9;
     position: fixed;
     top: 0;
     width: 100%;
@@ -24,9 +26,9 @@ li {
 
 li a {
     font-family: 'Montserrat'; font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: block;
-    color: #e56f62;
+    color: #adacab;
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
@@ -35,7 +37,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    color: #6e7ac5;
+    color: #3a3746;
 }
 
 .active {
@@ -48,19 +50,8 @@ li a:hover:not(.active) {
     display: block;
 }
 
-#page1 {
-}
-
-#page2 {
-}
-
-
-#image2 {
-
-
-}
-
-#page3 {
+#firstresponse_section {
+  background-color: #1a1923
 }
 
 #audioplayer{
@@ -122,5 +113,4 @@ li a:hover:not(.active) {
 
 #audio_container {
   background-color: #1a1923;
-
 }
